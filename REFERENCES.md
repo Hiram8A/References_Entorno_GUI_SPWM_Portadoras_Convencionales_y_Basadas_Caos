@@ -13,137 +13,162 @@
 
 ## 📖 Table of Contents
 
-- [Power Electronics & PWM](#-power-electronics--pwm)
-- [Chaos Theory & Nonlinear Dynamics](#-chaos-theory--nonlinear-dynamics)
-- [Chaotic Systems in Power Electronics](#-chaotic-systems-in-power-electronics)
-- [MATLAB & Simulation Tools](#-matlab--simulation-tools)
+- [Chaotic PWM/SPWM Techniques](#-chaotic-pwmspwm-techniques)
+- [Multilevel Inverters](#-multilevel-inverters)
+- [Harmonic Analysis & Standards](#-harmonic-analysis--standards)
+- [SPWM Control Techniques](#-spwm-control-techniques)
+- [Digital Implementation](#-digital-implementation)
+- [MATLAB & Simulation Tools](#%EF%B8%8F-matlab--simulation-tools)
 - [Download BibTeX](#-download-bibtex)
 
 ---
 
-## ⚡ Power Electronics & PWM
+## 🌀 Chaotic PWM/SPWM Techniques
 
 <details open>
 <summary><strong>Click to expand/collapse</strong></summary>
 
 <div style="margin: 20px 0;">
 
-### 📄 Microprocessor Control of PWM Inverters
-**Authors:** S. R. Bowes, M. J. Mount  
-**Year:** 1981 | **Journal:** IEE Proceedings B - Electric Power Applications  
-**Volume:** 128(6) | **Pages:** 293-305  
-[![DOI](https://img.shields.io/badge/DOI-10.1049%2Fip--b.1981.0045-blue)](https://doi.org/10.1049/ip-b.1981.0045)
+### 📄 Generation of Low-EMI PWM Patterns with Chaotic Maps
+**Authors:** A. Bellini, G. Franceschini, R. Rovatti, G. Setti, C. Tassoni  
+**Year:** 2001 | **Conference:** IEEE IECON 2001  
+**Pages:** 1527-1532  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FIECON.2001.975955-blue)](https://doi.org/10.1109/IECON.2001.975955)
 
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Foundational work on microprocessor-based PWM control for inverters, establishing key principles for modern power electronics control systems.
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Early work demonstrating the use of chaotic maps for generating PWM patterns that reduce electromagnetic interference in induction motor drives.
 </blockquote>
 
 ---
 
-### 📄 Pulse Width Modulation for Power Converters
-**Authors:** D. G. Holmes, T. A. Lipo  
-**Year:** 2003 | **Publisher:** Wiley-IEEE Press  
-**ISBN:** 978-0-471-20814-3  
-[![IEEE](https://img.shields.io/badge/IEEE-Book-00629B)](https://ieeexplore.ieee.org/book/5264372)
+### 📄 Suppressing EMI via Chaotic SPWM Control
+**Authors:** H. Li, Y. Liu, J. Lü, T. Q. Zheng, X. Yu  
+**Year:** 2014 | **Journal:** IEEE Transactions on Industrial Electronics  
+**Volume:** 61(11) | **Pages:** 6128-6137  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTIE.2014.2308131-blue)](https://doi.org/10.1109/TIE.2014.2308131)
 
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Comprehensive reference on PWM techniques, covering principles and practical implementations for power converter applications.
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Comprehensive study on EMI suppression in power converters using chaotic SPWM based on spectrum analysis approach.
 </blockquote>
 
 ---
 
-### 📄 Control in Power Electronics: Selected Problems
-**Authors:** M. P. Kazmierkowski, R. Krishnan, F. Blaabjerg  
-**Year:** 2002 | **Publisher:** Academic Press  
-**ISBN:** 978-0-12-402772-5  
-[![ScienceDirect](https://img.shields.io/badge/ScienceDirect-Book-orange)](https://www.sciencedirect.com/book/9780124027725/control-in-power-electronics)
+### 📄 Research on Control Method of Multilevel Inverter Based on Chaotic Modulation
+**Authors:** D. Lina, D. Luo, G. Huang, Y. Chen, T. Li  
+**Year:** 2024 | **Conference:** SPIE ISAEECE 2024  
+**Volume:** 13291 | **Pages:** 1-7  
+[![DOI](https://img.shields.io/badge/DOI-10.1117%2F12.3034432-blue)](https://doi.org/10.1117/12.3034432)
 
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Essential reference addressing key control challenges in modern power electronics systems.
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Recent research on applying chaotic modulation techniques to multilevel inverter control systems.
 </blockquote>
 
 ---
 
-### 📄 Power Electronics Handbook (3rd Edition)
-**Author:** Muhammad H. Rashid  
-**Year:** 2011 | **Publisher:** Butterworth-Heinemann  
-**ISBN:** 978-0-12-382036-5  
-[![ScienceDirect](https://img.shields.io/badge/ScienceDirect-Book-orange)](https://www.sciencedirect.com/book/9780123820365/power-electronics-handbook)
+### 📄 Chaotic Triangular Carrier Based Non-Deterministic SPWM Strategy
+**Authors:** P. Arul Kumar, N. P. Subramaniam  
+**Year:** 2015 | **Journal:** Indian Journal of Science and Technology  
+**Volume:** 8(9) | **Pages:** 842-848  
+[![DOI](https://img.shields.io/badge/DOI-10.17485%2Fijst%2F2015%2Fv8i9%2F60075-blue)](https://doi.org/10.17485/ijst/2015/v8i9/60075)
+
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Investigation of chaotic triangular carriers for non-deterministic SPWM strategies in voltage source inverter drives.
+</blockquote>
+
+---
+
+### 📄 Integral-Series Fourier Analysis of Chaotic PWM Patterns
+**Authors:** M. Asefi, J. Nazarzadeh  
+**Year:** 2018 | **Journal:** IET Power Electronics  
+**Volume:** 11(8) | **Pages:** 1329-1340  
+[![DOI](https://img.shields.io/badge/DOI-10.1049%2Fiet--pel.2017.0522-blue)](https://doi.org/10.1049/iet-pel.2017.0522)
+
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Advanced Fourier analysis techniques for characterizing chaotic PWM patterns and their effects on common mode voltage stresses.
+</blockquote>
+
+---
+
+### 📄 Study on Spread-Spectrum of Chaos PWM Techniques
+**Authors:** G. Han, J. Kim, Y. Jung  
+**Year:** 2022 | **Journal:** Journal of the Korean Institute of Illuminating and Electrical Installation Engineers  
+**Volume:** 36(5) | **Pages:** 27-37  
+[![DOI](https://img.shields.io/badge/DOI-10.5207%2FJIEIE.2022.36.5.027-blue)](https://doi.org/10.5207/JIEIE.2022.36.5.027)
+
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+Comprehensive study on spread-spectrum characteristics of chaos PWM techniques in power electronics converters.
+</blockquote>
+
+---
+
+### 📄 Conducted EMI Spectral Peak Mitigation Using Chaotic PWM
+**Authors:** S. Natarajan, P. Padmavathi, J. R. Kalvakurthi, T. S. Babu, V. K. Ramachandaramurthy, S. Padmanaban  
+**Year:** 2019 | **Journal:** Electric Power Components and Systems  
+**Volume:** 47(19-20) | **Pages:** 1761-1774  
+[![DOI](https://img.shields.io/badge/DOI-10.1080%2F15325008.2019.1629510-blue)](https://doi.org/10.1080/15325008.2019.1629510)
+
+<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
+FPGA-based implementation of chaotic PWM for conducted electromagnetic interference reduction in Luo-converters.
+</blockquote>
+
+</div>
+
+</details>
+
+---
+
+## ⚡ Multilevel Inverters
+
+<details open>
+<summary><strong>Click to expand/collapse</strong></summary>
+
+<div style="margin: 20px 0;">
+
+### 📄 Multilevel Inverters: Conventional and Emerging Topologies
+**Author:** K. K. Gupta  
+**Year:** 2020 | **Publisher:** Academic Press  
+**Chapter:** 4  
+[![Book](https://img.shields.io/badge/Book-Academic_Press-orange)](https://www.sciencedirect.com/book/9780128213063/multilevel-inverters)
 
 <blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Comprehensive handbook covering devices, circuits, and applications in power electronics.
+Comprehensive coverage of conventional and emerging multilevel inverter topologies with control strategies.
 </blockquote>
 
 ---
 
 ### 📄 Multilevel Inverters: A Survey of Topologies, Controls, and Applications
-**Authors:** J. Rodriguez, J. S. Lai, F. Z. Peng  
+**Authors:** J. Rodriguez, J.-S. Lai, F. Z. Peng  
 **Year:** 2002 | **Journal:** IEEE Transactions on Industrial Electronics  
 **Volume:** 49(4) | **Pages:** 724-738  
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FTIE.2002.801052-blue)](https://doi.org/10.1109/TIE.2002.801052)
 
 <blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Comprehensive survey of multilevel inverter topologies and their control strategies.
+Seminal survey paper covering multilevel inverter topologies, control strategies, and industrial applications.
 </blockquote>
 
 ---
 
-### 📄 Multicarrier PWM Strategies for Multilevel Inverters
-**Authors:** B. P. McGrath, D. G. Holmes  
-**Year:** 2002 | **Journal:** IEEE Transactions on Industrial Electronics  
-**Volume:** 49(4) | **Pages:** 858-867  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTIE.2002.801073-blue)](https://doi.org/10.1109/TIE.2002.801073)
+### 📄 Recent Advances and Industrial Applications of Multilevel Converters
+**Authors:** S. Kouro, M. Malinowski, K. Gopakumar, J. Pou, L. G. Franquelo, B. Wu, J. Rodriguez, M. A. Pérez, J. I. Leon  
+**Year:** 2010 | **Journal:** IEEE Transactions on Industrial Electronics  
+**Volume:** 57(8) | **Pages:** 2553-2580  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTIE.2010.2049719-blue)](https://doi.org/10.1109/TIE.2010.2049719)
 
 <blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Detailed analysis of multicarrier PWM techniques for multilevel power conversion.
+Comprehensive review of recent advances and industrial implementations of multilevel power converters.
 </blockquote>
 
 ---
 
-### 📄 A New Multilevel PWM Method: A Theoretical Analysis
-**Authors:** G. Carrara, S. Gardella, M. Marchesoni, R. Salutari, G. Sciutto  
-**Year:** 1992 | **Journal:** IEEE Transactions on Power Electronics  
-**Volume:** 7(3) | **Pages:** 497-505  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2F63.145137-blue)](https://doi.org/10.1109/63.145137)
+### 📄 A Generalized Multilevel Inverter Topology with Self Voltage Balancing
+**Author:** F. Z. Peng  
+**Year:** 2001 | **Journal:** IEEE Transactions on Industry Applications  
+**Volume:** 37(2) | **Pages:** 611-618  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2F28.913727-blue)](https://doi.org/10.1109/28.913727)
 
 <blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Theoretical foundation for advanced multilevel PWM methods.
-</blockquote>
-
----
-
-### 📄 Strategies of Fault Tolerant Operation for Three-Level PWM Inverters
-**Authors:** S. Li, L. Xu  
-**Year:** 2006 | **Journal:** IEEE Transactions on Power Electronics  
-**Volume:** 21(4) | **Pages:** 933-940  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTPEL.2006.876844-blue)](https://doi.org/10.1109/TPEL.2006.876844)
-
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Fault tolerance strategies for reliable operation of three-level inverters.
-</blockquote>
-
----
-
-### 📄 Power Electronics: Converters, Applications, and Design (3rd Edition)
-**Authors:** Ned Mohan, Tore M. Undeland, William P. Robbins  
-**Year:** 2003 | **Publisher:** John Wiley & Sons  
-**ISBN:** 978-0-471-42908-1  
-[![Wiley](https://img.shields.io/badge/Wiley-Book-red)](https://www.wiley.com/en-us/Power+Electronics%3A+Converters%2C+Applications%2C+and+Design%2C+3rd+Edition-p-9780471429081)
-
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Classic textbook covering fundamental and advanced concepts in power electronics.
-</blockquote>
-
----
-
-### 📄 Power Electronics and Motor Drives: Advances and Trends
-**Author:** Bimal K. Bose  
-**Year:** 2006 | **Publisher:** Academic Press  
-**ISBN:** 978-0-12-088405-6  
-[![ScienceDirect](https://img.shields.io/badge/ScienceDirect-Book-orange)](https://www.sciencedirect.com/book/9780120884056/power-electronics-and-motor-drives)
-
-<blockquote style="border-left: 4px solid #0969da; padding-left: 16px; color: #57606a;">
-Advanced coverage of power electronics and motor drive technologies.
+Introduction of generalized multilevel inverter topology with inherent voltage balancing capabilities.
 </blockquote>
 
 </div>
@@ -152,165 +177,45 @@ Advanced coverage of power electronics and motor drive technologies.
 
 ---
 
-## 🌀 Chaos Theory & Nonlinear Dynamics
+## 📊 Harmonic Analysis & Standards
 
 <details open>
 <summary><strong>Click to expand/collapse</strong></summary>
 
 <div style="margin: 20px 0;">
 
-### 📄 Simple Mathematical Models with Very Complicated Dynamics
-**Author:** Robert M. May  
-**Year:** 1976 | **Journal:** Nature  
-**Volume:** 261 | **Pages:** 459-467  
-[![DOI](https://img.shields.io/badge/DOI-10.1038%2F261459a0-blue)](https://doi.org/10.1038/261459a0)
+### 📄 Harmonic Distortion Assessment in Single-Phase PV System
+**Authors:** D. Rath, S. Kar, A. K. Patra  
+**Year:** 2021 | **Journal:** Arabian Journal for Science and Engineering  
+**Volume:** 46 | **Pages:** 4765-4779  
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs13369--021--05437--6-blue)](https://doi.org/10.1007/s13369-021-05437-6)
 
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Seminal paper introducing the logistic map and demonstrating how simple equations can produce complex chaotic behavior.
+<blockquote style="border-left: 4px solid #1f6feb; padding-left: 16px; color: #57606a;">
+Analysis of harmonic distortion in photovoltaic systems using SPWM techniques.
 </blockquote>
 
 ---
 
-### 📄 Deterministic Nonperiodic Flow
-**Author:** Edward N. Lorenz  
-**Year:** 1963 | **Journal:** Journal of the Atmospheric Sciences  
-**Volume:** 20(2) | **Pages:** 130-141  
-[![DOI](https://img.shields.io/badge/DOI-10.1175%2F1520--0469(1963)020-blue)](https://doi.org/10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2)
+### 📄 IEEE Standard 519-2014: Harmonic Control in Electric Power Systems
+**Organization:** IEEE  
+**Year:** 2014 | **Type:** Standard  
+**Number:** 519-2014  
+[![IEEE](https://img.shields.io/badge/IEEE-Standard-00629B)](https://standards.ieee.org/standard/519-2014.html)
 
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-The paper that introduced the famous Lorenz attractor and popularized chaos theory.
+<blockquote style="border-left: 4px solid #1f6feb; padding-left: 16px; color: #57606a;">
+Recommended practices and requirements for harmonic control in electric power systems.
 </blockquote>
 
 ---
 
-### 📄 An Introduction to Chaotic Dynamical Systems (2nd Edition)
-**Author:** Robert L. Devaney  
-**Year:** 1989 | **Publisher:** Addison-Wesley  
-**ISBN:** 978-0-201-13046-6  
-[![Routledge](https://img.shields.io/badge/Routledge-Book-darkred)](https://www.routledge.com/An-Introduction-to-Chaotic-Dynamical-Systems/Devaney/p/book/9780813345154)
+### 📄 IEC 61000-2-2: Electromagnetic Compatibility Standard
+**Organization:** IEC  
+**Year:** 2002 | **Type:** Standard  
+**Number:** 61000-2-2  
+[![IEC](https://img.shields.io/badge/IEC-Standard-darkblue)](https://webstore.iec.ch/publication/4134)
 
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Comprehensive introduction to chaotic systems with rigorous mathematical treatment.
-</blockquote>
-
----
-
-### 📄 Nonlinear Dynamics and Chaos (2nd Edition)
-**Author:** Steven H. Strogatz  
-**Year:** 2015 | **Publisher:** Westview Press  
-**ISBN:** 978-0-813-34910-7  
-[![Website](https://img.shields.io/badge/Author-Website-green)](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Highly acclaimed textbook on nonlinear dynamics with wide-ranging applications across sciences and engineering.
-</blockquote>
-
----
-
-### 📄 Chaos-Based Cryptography: Theory, Algorithms and Applications
-**Authors:** L. Kocarev, S. Lian  
-**Year:** 2011 | **Publisher:** Springer  
-**ISBN:** 978-3-642-20541-5  
-[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--642--20542--2-blue)](https://doi.org/10.1007/978-3-642-20542-2)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Applications of chaos theory in cryptography and secure communications.
-</blockquote>
-
----
-
-### 📄 Chaos: An Introduction to Dynamical Systems
-**Authors:** Kathleen T. Alligood, Tim D. Sauer, James A. Yorke  
-**Year:** 1996 | **Publisher:** Springer  
-**ISBN:** 978-0-387-94677-1  
-[![DOI](https://img.shields.io/badge/DOI-10.1007%2Fb97589-blue)](https://doi.org/10.1007/b97589)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Comprehensive introduction to chaotic dynamical systems with practical examples.
-</blockquote>
-
----
-
-### 📄 Chaos in Dynamical Systems (2nd Edition)
-**Author:** Edward Ott  
-**Year:** 2002 | **Publisher:** Cambridge University Press  
-**ISBN:** 978-0-521-01084-9  
-[![Cambridge](https://img.shields.io/badge/Cambridge-Book-lightblue)](https://www.cambridge.org/core/books/chaos-in-dynamical-systems/5FB0D44AD5CFEF1C2DB633B9419BC6F0)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Advanced treatment of chaos theory with emphasis on practical applications.
-</blockquote>
-
----
-
-### 📄 Estimation of the Parameters of a Logistic Map from Time Series
-**Authors:** B. Azzerboni, G. Saraceno  
-**Year:** 2008 | **Journal:** Chaos, Solitons & Fractals  
-**Volume:** 36(5) | **Pages:** 1136-1145  
-[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.chaos.2006.08.025-blue)](https://doi.org/10.1016/j.chaos.2006.08.025)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Methods for parameter estimation in logistic map systems from experimental data.
-</blockquote>
-
----
-
-### 📄 Period-Doubling Cascades and Devil's Staircases
-**Authors:** U. Parlitz, W. Lauterborn  
-**Year:** 1987 | **Journal:** Physical Review A  
-**Volume:** 36(3) | **Pages:** 1428-1434  
-[![DOI](https://img.shields.io/badge/DOI-10.1103%2FPhysRevA.36.1428-blue)](https://doi.org/10.1103/PhysRevA.36.1428)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Investigation of period-doubling routes to chaos in driven oscillators.
-</blockquote>
-
----
-
-### 📄 Circuit Implementation of Synchronized Chaos
-**Authors:** K. M. Cuomo, A. V. Oppenheim  
-**Year:** 1993 | **Journal:** Physical Review Letters  
-**Volume:** 71(1) | **Pages:** 65-68  
-[![DOI](https://img.shields.io/badge/DOI-10.1103%2FPhysRevLett.71.65-blue)](https://doi.org/10.1103/PhysRevLett.71.65)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Practical circuit implementations for chaotic communication systems.
-</blockquote>
-
----
-
-### 📄 Synchronization in Chaotic Systems
-**Authors:** Louis M. Pecora, Thomas L. Carroll  
-**Year:** 1990 | **Journal:** Physical Review Letters  
-**Volume:** 64(8) | **Pages:** 821-824  
-[![DOI](https://img.shields.io/badge/DOI-10.1103%2FPhysRevLett.64.821-blue)](https://doi.org/10.1103/PhysRevLett.64.821)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Groundbreaking work on chaos synchronization with applications to secure communications.
-</blockquote>
-
----
-
-### 📄 Communication by Chaotic Signals: The Inverse System Approach
-**Authors:** U. Feldmann, M. Hasler, W. Schwarz  
-**Year:** 1996 | **Journal:** International Journal of Circuit Theory and Applications  
-**Volume:** 24(5) | **Pages:** 551-579  
-[![DOI](https://img.shields.io/badge/DOI-10.1002%2F(SICI)1097--007X-blue)](https://doi.org/10.1002/(SICI)1097-007X(199609/10)24:5<551::AID-CTA936>3.0.CO;2-H)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Theoretical framework for chaotic signal-based communication systems.
-</blockquote>
-
----
-
-### 📄 Mastering Chaos
-**Authors:** William L. Ditto, Louis M. Pecora  
-**Year:** 1993 | **Journal:** Scientific American  
-**Volume:** 269(2) | **Pages:** 78-84  
-[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fscientificamerican0893--78-blue)](https://doi.org/10.1038/scientificamerican0893-78)
-
-<blockquote style="border-left: 4px solid #8250df; padding-left: 16px; color: #57606a;">
-Accessible overview of controlling and utilizing chaotic systems.
+<blockquote style="border-left: 4px solid #1f6feb; padding-left: 16px; color: #57606a;">
+Compatibility levels for low-frequency conducted disturbances in public power supply systems.
 </blockquote>
 
 </div>
@@ -319,69 +224,57 @@ Accessible overview of controlling and utilizing chaotic systems.
 
 ---
 
-## ⚡🌀 Chaotic Systems in Power Electronics
+## 🎛️ SPWM Control Techniques
 
 <details open>
 <summary><strong>Click to expand/collapse</strong></summary>
 
 <div style="margin: 20px 0;">
 
-### 📄 Bifurcations and Chaos in a Permanent-Magnet Synchronous Motor
-**Authors:** Z. Li, J. B. Park, Y. H. Joo, B. Zhang, G. Chen  
-**Year:** 2002 | **Journal:** IEEE Transactions on Circuits and Systems I  
-**Volume:** 49(3) | **Pages:** 383-387  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2F81.989176-blue)](https://doi.org/10.1109/81.989176)
+### 📄 Performance Comparison of Multilevel Inverter with SPWM Techniques
+**Authors:** B. H. Yuditya, R. N. Hasanah, L. Ardhenta, T. Taufik  
+**Year:** 2020 | **Conference:** FORTEI-ICEE 2020  
+**Pages:** 102-107  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FFORTEI--ICEE50915.2020.9249911-blue)](https://doi.org/10.1109/FORTEI-ICEE50915.2020.9249911)
 
 <blockquote style="border-left: 4px solid #bf4b8a; padding-left: 16px; color: #57606a;">
-Analysis of chaotic behavior in permanent-magnet synchronous motor drives.
+Comparative study of unipolar and bipolar SPWM switching techniques for single-phase multilevel inverters.
 </blockquote>
 
 ---
 
-### 📄 Analysis of Chaos in Current-Mode-Controlled DC Drive Systems
-**Authors:** J. H. Chen, K. T. Chau, C. C. Chan  
-**Year:** 2000 | **Journal:** IEEE Transactions on Industrial Electronics  
-**Volume:** 47(1) | **Pages:** 67-76  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2F41.824127-blue)](https://doi.org/10.1109/41.824127)
+### 📄 Common-Mode Voltage Reduction PWM Algorithm for AC Drives
+**Authors:** R. M. Tallam, R. J. Kerkman, D. Leggate, R. A. Lukaszewski  
+**Year:** 2010 | **Journal:** IEEE Transactions on Industry Applications  
+**Volume:** 46(5) | **Pages:** 1959-1969  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTIA.2010.2057396-blue)](https://doi.org/10.1109/TIA.2010.2057396)
 
 <blockquote style="border-left: 4px solid #bf4b8a; padding-left: 16px; color: #57606a;">
-Investigation of chaotic phenomena in DC drive control systems.
+Novel PWM algorithm for reducing common-mode voltage in AC drive applications.
 </blockquote>
 
 ---
 
-### 📄 Subharmonics and Chaos in a Controlled Switched-Mode Power Converter
-**Authors:** D. C. Hamill, D. J. Jefferies  
-**Year:** 1988 | **Journal:** IEEE Transactions on Circuits and Systems  
-**Volume:** 35(8) | **Pages:** 1059-1061  
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2F31.1858-blue)](https://doi.org/10.1109/31.1858)
+### 📄 Third Harmonic Injection SPWM for Common Mode Voltage Suppression
+**Authors:** B. Tan, Z. Gu, K. Shen, X. Ding  
+**Year:** 2019 | **Journal:** IEEE Access  
+**Volume:** 7 | **Pages:** 9805-9815  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FACCESS.2018.2890014-blue)](https://doi.org/10.1109/ACCESS.2018.2890014)
 
 <blockquote style="border-left: 4px solid #bf4b8a; padding-left: 16px; color: #57606a;">
-Early identification of chaotic behavior in power converters.
+Third harmonic injection SPWM method using alternating carrier polarity to suppress common mode voltage.
 </blockquote>
 
 ---
 
-### 📄 Complex Behavior of Switching Power Converters
-**Author:** C. K. Tse  
-**Year:** 2003 | **Publisher:** CRC Press  
-**ISBN:** 978-0-849-31286-5  
-[![CRC Press](https://img.shields.io/badge/CRC_Press-Book-teal)](https://www.routledge.com/Complex-Behavior-of-Switching-Power-Converters/Tse/p/book/9780849312861)
+### 📄 Design of Novel SPWM Based on Bat-Like Reference Signal
+**Authors:** I. M. K. Al-Jafeary, N. M. L. Tan  
+**Year:** 2020 | **Conference:** IEEE PECon 2020  
+**Pages:** 439-444  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FPECon48942.2020.9314525-blue)](https://doi.org/10.1109/PECon48942.2020.9314525)
 
 <blockquote style="border-left: 4px solid #bf4b8a; padding-left: 16px; color: #57606a;">
-Comprehensive treatment of nonlinear phenomena in switching power converters.
-</blockquote>
-
----
-
-### 📄 Nonlinear Phenomena in Power Electronics
-**Authors:** S. Banerjee, G. C. Verghese  
-**Year:** 2001 | **Publisher:** IEEE Press  
-**ISBN:** 978-0-780-36092-6  
-[![IEEE](https://img.shields.io/badge/IEEE-Book-00629B)](https://ieeexplore.ieee.org/book/5237966)
-
-<blockquote style="border-left: 4px solid #bf4b8a; padding-left: 16px; color: #57606a;">
-In-depth exploration of attractors, bifurcations, and chaos in power electronic systems.
+Novel SPWM technique using bat-like reference signals for electric vehicle applications.
 </blockquote>
 
 </div>
@@ -389,6 +282,30 @@ In-depth exploration of attractors, bifurcations, and chaos in power electronic 
 </details>
 
 ---
+
+## 💻 Digital Implementation
+
+<details open>
+<summary><strong>Click to expand/collapse</strong></summary>
+
+<div style="margin: 20px 0;">
+
+### 📄 FPGA-Based High-Definition SPWM Generation
+**Authors:** R. Sarker, A. Datta, S. Debnath  
+**Year:** 2021 | **Journal:** IEEE Transactions on Industrial Informatics  
+**Volume:** 17(2) | **Pages:** 1352-1363  
+[![DOI](https://img.shields.io/badge/DOI-10.1109%2FTII.2020.2983844-blue)](https://doi.org/10.1109/TII.2020.2983844)
+
+<blockquote style="border-left: 4px solid #e36209; padding-left: 16px; color: #57606a;">
+FPGA-based implementation of high-definition SPWM with harmonic mitigation properties for voltage source inverters.
+</blockquote>
+
+</div>
+
+</details>
+
+---
+
 
 ## 🖥️ MATLAB & Simulation Tools
 
@@ -408,17 +325,6 @@ Primary development environment for numerical computing and algorithm implementa
 
 ---
 
-### 📄 Simulink: Simulation and Model-Based Design
-**Organization:** The MathWorks Inc.  
-**Year:** 2023 | **Location:** Natick, Massachusetts  
-[![Simulink](https://img.shields.io/badge/Simulink-Official-orange?logo=mathworks)](https://www.mathworks.com/products/simulink.html)
-
-<blockquote style="border-left: 4px solid #e36209; padding-left: 16px; color: #57606a;">
-Block diagram environment for multi-domain simulation and model-based design.
-</blockquote>
-
----
-
 ### 📄 GUIDE: MATLAB Graphical User Interface Development Environment
 **Organization:** The MathWorks Inc.  
 **Year:** 2020 | **Location:** Natick, Massachusetts  
@@ -426,6 +332,29 @@ Block diagram environment for multi-domain simulation and model-based design.
 
 <blockquote style="border-left: 4px solid #e36209; padding-left: 16px; color: #57606a;">
 Tool for creating custom graphical user interfaces in MATLAB.
+</blockquote>
+
+</div>
+
+</details>
+
+---
+
+## 📄 Conference Papers & Research Work
+
+<details open>
+<summary><strong>Click to expand/collapse</strong></summary>
+
+<div style="margin: 20px 0;">
+
+### 📄 Entorno GUI para Análisis de Técnicas SPWM
+**Authors:** H. Ochoa-Sáenz, R. E. Lozoya-Ponce, E. Jiménez-López, R. C. Martínez-Montejano, L. J. Ontañón-García  
+**Year:** 2024  
+**ISBN:** 978-607-535-514-6  
+[![Handle](https://img.shields.io/badge/Handle-20.500.11799%2F143089-green)](http://hdl.handle.net/20.500.11799/143089)
+
+<blockquote style="border-left: 4px solid #8b5cf6; padding-left: 16px; color: #57606a;">
+Este trabajo presenta el desarrollo del entorno GUI en MATLAB para el análisis comparativo de técnicas SPWM con portadoras convencionales y basadas en caos.
 </blockquote>
 
 </div>
@@ -464,11 +393,14 @@ cat referencias.bib
 
 | Category | Count |
 |:--------:|:-----:|
-| 📖 Total References | 31 |
-| ⚡ Power Electronics | 10 |
-| 🌀 Chaos Theory | 13 |
-| ⚡🌀 Chaos in Power Electronics | 5 |
-| 🖥️ Software Tools | 3 |
+| 📖 Total References | 22 |
+| 🌀 Chaotic PWM/SPWM Techniques | 7 |
+| ⚡ Multilevel Inverters | 4 |
+| 📊 Harmonic Analysis & Standards | 3 |
+| 🎛️ SPWM Control Techniques | 4 |
+| 💻 Digital Implementation | 1 |
+| 🖥️ MATLAB & Simulation Tools | 2 |
+| 📄 Conference Papers | 1 |
 
 </div>
 
@@ -478,7 +410,7 @@ cat referencias.bib
 
 ### Using BibTeX
 
-1. Download the `referencias.bib` file
+1. Download the [`referencias.bib`](./referencias.bib) file
 2. Include it in your LaTeX project
 3. Reference any citation using its key:
 
@@ -488,8 +420,9 @@ cat referencias.bib
 
 \begin{document}
 
-According to \cite{Holmes2003}, pulse width modulation...
-Chaos theory applications in power electronics \cite{Tse2003}...
+According to \cite{li2014suppressing}, chaotic SPWM control...
+Multilevel inverter topologies \cite{rodriguez2002multilevel}...
+The GUI environment \cite{ochoa2024entorno}...
 
 \bibliography{referencias}
 \bibliographystyle{ieeetr}
@@ -499,7 +432,7 @@ Chaos theory applications in power electronics \cite{Tse2003}...
 
 ### Manual Citation Example
 
-> Holmes, D. G., & Lipo, T. A. (2003). *Pulse Width Modulation for Power Converters: Principles and Practice*. Wiley-IEEE Press.
+> Li, H., Liu, Y., Lü, J., Zheng, T. Q., & Yu, X. (2014). Suppressing EMI in Power Converters via Chaotic SPWM Control Based on Spectrum Analysis Approach. *IEEE Transactions on Industrial Electronics*, 61(11), 6128-6137.
 
 ---
 
@@ -508,23 +441,23 @@ Chaos theory applications in power electronics \cite{Tse2003}...
 <details>
 <summary><strong>Search by Topic</strong></summary>
 
-### PWM Techniques
-- Bowes1975, Holmes2003, McGrath2002, Carrara1992
+### Chaotic PWM/SPWM
+- bellini2001generation, li2014suppressing, lina2024research, arulkumar2015chaotic, asefi2018integral, han2022study, natarajan2019conducted
 
 ### Multilevel Inverters
-- Rodriguez2002, McGrath2002, Carrara1992, Li2007
+- rodriguez2002multilevel, kouro2010recent, peng2001generalized, gupta2020multilevel
 
-### Chaos Fundamentals
-- May1976, Lorenz1963, Devaney1989, Strogatz2015
+### Harmonic Analysis
+- rath2021harmonic, ieee519, iec61000
 
-### Logistic Maps
-- May1976, Azzerboni2008
+### SPWM Techniques
+- yuditya2020performance, tallam2010common, tan2019third, aljafeary2020design
 
-### Chaos in Power Systems
-- Li2005, Chen2008, Hamill1992, Tse2003, Banerjee2003
+### FPGA Implementation
+- sarker2021fpga, natarajan2019conducted
 
-### Chaos Synchronization
-- Pecora1990, Cuomo1993, Feldmann2000
+### GUI Development
+- ochoa2024entorno
 
 </details>
 
@@ -534,8 +467,6 @@ Chaos theory applications in power electronics \cite{Tse2003}...
 
 ## 🌟 Contributing
 
-Found a relevant reference? Have suggestions? Feel free to contribute!
-
 [![GitHub Issues](https://img.shields.io/badge/Report-Issue-red?style=for-the-badge&logo=github)](https://github.com/Hiram8A/References_Entorno_GUI_SPWM_Portadoras_Convencionales_y_Basadas_Caos/issues)
 [![GitHub PR](https://img.shields.io/badge/Submit-Pull_Request-green?style=for-the-badge&logo=github)](https://github.com/Hiram8A/References_Entorno_GUI_SPWM_Portadoras_Convencionales_y_Basadas_Caos/pulls)
 
@@ -543,6 +474,6 @@ Found a relevant reference? Have suggestions? Feel free to contribute!
 
 **Made with ❤️ for the Power Electronics & Chaos Theory Research Community**
 
-*Last Updated: February 2024*
+*Last Updated: February 2025*
 
 </div>
