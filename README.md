@@ -8,7 +8,7 @@ Este trabajo presenta el desarrollo de un entorno gráfico interactivo (por sus 
 ## 📚 Documentation
 
 - **[Complete Bibliography](./REFERENCES.md)** - Interactive presentation of all consulted references
-- **[BibTeX File](./referencias.bib)** - Bibliography in BibTeX format for LaTeX citations
+- **[BibTeX File](./referencias.bib)** - Bibliography in BibTeX format containing 20 references consulted for this research paper
 
 ## 📖 About
 
@@ -23,4 +23,16 @@ This work presents the development of an interactive graphical user interface (G
 ## 🔗 Quick Links
 
 - [View References](./REFERENCES.md) - Comprehensive bibliography with clickable links
-- [Download BibTeX](./referencias.bib) - For academic citations
+- [Download BibTeX](./referencias.bib) - BibTeX file with 20 consulted references for academic citations
+
+## 📖 References
+
+This repository includes a comprehensive bibliography of 20 academic references consulted during the development of this research, covering:
+
+- 🌀 **Chaotic PWM/SPWM Techniques** - Methods using chaotic carriers for EMI suppression and spread-spectrum modulation
+- ⚡ **Multilevel Inverters** - Topologies, controls, and applications
+- 📊 **Harmonic Analysis** - SPWM techniques for harmonic mitigation
+- 🔌 **Power Electronics Standards** - IEEE and IEC standards for harmonic control and EMC
+- 💻 **FPGA Implementation** - Digital implementation of advanced PWM techniques
+
+All references are available in both interactive markdown format ([REFERENCES.md](./REFERENCES.md)) and BibTeX format ([referencias.bib](./referencias.bib)) for easy citation.
